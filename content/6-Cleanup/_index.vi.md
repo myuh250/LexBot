@@ -4,9 +4,6 @@ date: "2025-07-04"
 weight: 3
 chapter: false
 ---
-
-## Bước 6: Dọn dẹp tài nguyên sau workshop
-
 Sau khi hoàn thành workshop, bạn nên xóa các tài nguyên AWS để tránh phát sinh chi phí không cần thiết.
 
 ### Các bước dọn dẹp:
