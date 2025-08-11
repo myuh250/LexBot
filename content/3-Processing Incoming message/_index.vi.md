@@ -11,12 +11,12 @@ Trong phần này, chúng ta sẽ mở rộng Lambda function **InputHandler** �
 #### Bước 1: Cập nhật IAM Role cho Lambda (optional nếu muốn gửi audio)
 Để có thể truy cập được vào s3, chúng ta cần cập nhật thêm IAM role đã tạo trước đó. 
 1. Di chuyển trở lại role **LambdaChatbotExecutionRole**, tại tab **Permissions policies**, nhấn vào **Attach Policies**.
-![ConnectPrivate](/images/3.input/3modrole.png) 
+![ConnectPrivate](/images/9.input/9modrole.png) 
 2. Tìm kiếm và tick vào policy `AmazonS3FullAccess`. 
 3. Tìm kiếm và tick vào policy `AmazonTranscribeFullAccess` để có thể sử dụng Transcribe.
    Vì bài workshop này không có tập trung khắc khe về việc quản lý các role cũng như hành vi họ được làm, nên chúng ta sẽ sử dụng full access để được tiện lợi nhất.
 4. Nhấn **Add Permissions** để hoàn tất.
-5. ![ConnectPrivate](/images/3.input/3donerole.png) 
+5. ![ConnectPrivate](/images/9.input/9donerole.png) 
 
 #### Bước 2: Chuẩn bị S3 bucket (optional nếu muốn gửi audio)
 1. Truy cập S3 console: https://s3.console.aws.amazon.com/s3

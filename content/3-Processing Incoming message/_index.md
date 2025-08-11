@@ -11,12 +11,12 @@ In this section, we will extend the **InputHandler** Lambda function to:
 #### Step 1: Update IAM Role for Lambda (optional if you want to send audio)
 To access S3, you need to update the IAM role you created earlier.
 1. Go back to the **LambdaChatbotExecutionRole** role, in the **Permissions policies** tab, click **Attach Policies**.
-![ConnectPrivate](/images/3.input/3modrole.png) 
+![ConnectPrivate](/images/9.input/9modrole.png) 
 2. Search for and check the `AmazonS3FullAccess` policy.
 3. Search for and check the `AmazonTranscribeFullAccess` policy to use Transcribe.
    Since this workshop does not focus strictly on role management or permissions, we will use full access for convenience.
 4. Click **Add Permissions** to complete.
-5. ![ConnectPrivate](/images/3.input/3donerole.png)
+5. ![ConnectPrivate](/images/9.input/9donerole.png)
 
 #### Step 2: Prepare S3 bucket (optional if you want to send audio)
 1. Go to the S3 console: https://s3.console.aws.amazon.com/s3
