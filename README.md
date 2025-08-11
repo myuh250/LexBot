@@ -11,7 +11,7 @@ This repository contains a Hugo-based documentation website for a hands-on lab o
 
 **Key Features:**
 - Multilingual documentation (EN/VI)
-- Step-by-step AWS resource provisioning (EC2, IAM, S3, Lambda, API Gateway, Lex, Polly, Bedrock)
+- Step-by-step AWS resource provisioning (IAM, S3, Lambda, API Gateway, Lex, Polly, Bedrock)
 - Slack integration for chatbot input/output
 - Custom NLP and sentiment analysis
 - Infrastructure as code and automation
@@ -38,7 +38,7 @@ To view or contribute to this documentation locally:
 1. **Install Hugo**
 2. **Clone this repository:**
   ```sh
-  git clone 
+  git clone https://github.com/myuh250/lexbot.git
   cd lexbot
   ```
 3. **Start the local server:**
@@ -48,7 +48,7 @@ To view or contribute to this documentation locally:
 4. **Open** [http://localhost:1313](http://localhost:1313) in your browser.
 
 ## Deployment
-This site deployed at 
+This site deployed at myuh250.github.io/lexbot/
 
 ## Author
 This guide and documentation site was written by Nguyen Tien Huy under AWS First Cloud Journey Training Program.
