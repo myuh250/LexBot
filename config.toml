@@ -1,5 +1,6 @@
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
+baseURL = "https://myuh250.github.io/lexbot/"
 
 # For search functionality
 [outputs]
@@ -19,7 +20,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Deploy Hugo Website with AWS CI/CD Tools"
+title = "Conversational AI with Lex, Polly and Custom Models"
 weight = 1
 languageName = "English"
 
@@ -30,7 +31,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
 [Languages.vi]
-title = "Triển khai Hugo Website với bộ công cụ CICD của AWS"
+title = "Xây dựng AI hội thoại với Lex, Polly và Custom Models"
 weight = 2
 languageName = "Tiếng Việt"
 
