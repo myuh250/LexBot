@@ -11,7 +11,7 @@ This repository contains a Hugo-based documentation website for a hands-on lab o
 
 **Key Features:**
 - Multilingual documentation (EN/VI)
-- Step-by-step AWS resource provisioning (EC2, IAM, S3, Lambda, API Gateway, Lex, Polly, Bedrock)
+- Step-by-step AWS resource provisioning (IAM, S3, Lambda, API Gateway, Lex, Polly, Bedrock)
 - Slack integration for chatbot input/output
 - Custom NLP and sentiment analysis
 - Infrastructure as code and automation
