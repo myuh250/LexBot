@@ -3,11 +3,7 @@ title: "6. Clean Up AWS Resources"
 date: "2025-07-04"
 weight: 3
 chapter: false
----
-
-## Step 6: Clean Up Resources After the Workshop
-
-After completing the workshop, you should delete AWS resources to avoid unnecessary costs.
+---After completing the workshop, you should delete AWS resources to avoid unnecessary costs.
 
 ### Cleanup Steps:
 
